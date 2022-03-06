@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="codeforhello.css"">
+
+      <script>
+        function mymessage() {
+          alert("This message was triggered from the onload event");
+        }
+        </script>
+        <body>
+<style> h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+color: azure;
+    background-color: black;
+    font-size: 40px;
+}</style>
+            <div>
+            <button
+            onmouseover="style.color='red'"
+onmouseout="style.color='green'"
+            onclick="mymessage()">Click on this text
+
+            </button>           </div>
+        <h1>
+            <p id="demo">JavaScript can change HTML content.</p>
+
+            <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+        </h1>    
+        </body>
+    </head>
+</html>

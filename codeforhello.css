@@ -1,22 +1,5 @@
-body{ 
-    background: linear-gradient(to right, #0099ff 0%, #33cccc 100%);
+p{
+  font-size: 50px;
+  color: aqua;
+  text-align: center;
 }
-p{  font-size: 70px;
-     font-family:'Libre Baskerville', serif;
-    background: linear-gradient(to right, #99ff33 0%, #33cccc 100%);
-    text-align: center;
-}
-h1{font-size: 20px;
-    text-align: center;
-    font-family:'Pacifico', cursive; 
-    
-    border-radius: 25px;
-  border: 2px;
-  padding: 20px; 
-  width: 300px;
-  height: 20px; 
-  background: linear-gradient(to right, #99ff33 0%, #33cccc 100%);
-  position: relative;
-  top: 50%;
-  left: 38%;
-} 
